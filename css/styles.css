@@ -316,6 +316,10 @@ textarea.os-input-textarea::-webkit-input-placeholder {
     justify-content: center;
     width: 105px;
 }
+.modal-send:hover {
+    cursor: pointer;
+    background-color: var(--ocean);
+}
         /* Section About What-we-do Team */
 .section {
    padding-top: 120px;
