@@ -195,7 +195,6 @@ body {
     margin: 0px 24px 8px;
     position: relative;
 }
-
 .input-label {
     text-align: left;
     margin-bottom: 4px;
@@ -205,7 +204,6 @@ body {
     line-height: 14px;
     letter-spacing: 0.48px;
 }
-
 .os-input {
     padding: 12px 40px;
     border: 1px solid #2e2f42;
@@ -214,7 +212,6 @@ body {
     transition-property: color, border-color, background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .os-icon {
     position: absolute;
     top: 55%;
@@ -222,16 +219,13 @@ body {
     fill: black;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .os-input:focus+.os-icon,
 .os-input:hover+.os-icon {
     fill: var(--iris);
 }
-
 .os-input:hover {
     border: 1px solid var(--iris);
 }
-
 .os-input-textarea {
     border: 1px solid #2e2f42;
     border-radius: 4px;
@@ -307,7 +301,7 @@ textarea.os-input-textarea::-webkit-input-placeholder {
 }
 .os-send-btn {
     color: var(--white);
-    font-family: inherit;
+    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;        
@@ -470,19 +464,15 @@ textarea.os-input-textarea::-webkit-input-placeholder {
     width: 360px;
     border: 1px solid var(--cornflower);
     background: var(--white);
-    /* margin: 48px 24px; */
 }
-
 .porfolio li:hover,
 .porfolio li:focus {
     cursor: pointer;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
 .porfolio li img {
     width: 100%;
 }
-
 .porfolio h3 {
     color: var(--navyblue);
     font-size: 20px;
